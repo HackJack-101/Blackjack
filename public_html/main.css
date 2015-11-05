@@ -1,0 +1,41 @@
+.main
+{
+	width: 800px;
+	margin: 0 auto;
+}
+
+h1
+{
+	text-align: center;
+}
+
+.info, #playerCards, #bankCards
+{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+img
+{
+	margin: 5px 0;
+}
+
+#loserDisplay, #equalityDisplay, #winnerDisplay
+{
+	display: none;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.75);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+#loserDisplay h1, #equalityDisplay h1, #winnerDisplay h1
+{
+	color: red;
+	margin-top: 45vh;
+}

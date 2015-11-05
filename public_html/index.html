@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BlackJack</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./main.css"/>
+		<script type="text/javascript" src="scripts/main.js"></script>
+	</head>
+	<body>
+		<div class="main" id="main">
+			<h1>BlackJack</h1>
+			<div class="info">
+				<div class="playerMoney">Votre argent : <span id="playerMoney">0</span></div>
+				<div class="bankMoney">L'argent de la banque: <span id="bankMoney">0</span></div>
+			</div>
+			<h2>Les cartes de la banque</h2>
+			<div id="bankBoard">
+				<div class="score">
+					Le score de la Banque : <span id="bankScore"></span>
+				</div>
+				<div id="bankCards">
+					
+				</div>
+			</div>
+			<h2>Mes cartes</h2>
+			<div class="playerBoard">
+				<div class="score">
+					Votre score : <span id="playerScore"></span>
+				</div>
+				<button id="newCard">Nouvelle carte</button>
+				<br/>
+				<button id="stopGame">J'arrête</button>
+				<div id="playerCards">
+					
+				</div>
+			</div>
+		</div>
+		<div id="loserDisplay">
+			<h1>PERDU !</h1>
+		</div>
+		<div id="winnerDisplay">
+			<h1>GAGNÉ !</h1>
+		</div>
+		<div id="equalityDisplay">
+			<h1>ÉGALITÉ !</h1>
+		</div>
+	</body>
+</html>
