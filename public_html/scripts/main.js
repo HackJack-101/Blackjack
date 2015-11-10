@@ -138,16 +138,19 @@ var playerWins = function ()
 	playerMoney += bet;
 	bankMoney -= bet;
 	display("winner");
+	newGame();
 };
 var bankWins = function ()
 {
 	playerMoney -= bet;
 	bankMoney += bet;
 	display("loser");
+	newGame();
 };
 var equality = function ()
 {
 	display("equality");
+	newGame();
 };
 
 var stop = function ()
